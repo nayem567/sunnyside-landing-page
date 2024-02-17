@@ -1,0 +1,160 @@
+
+/* .container-fluid{
+    width: 1640px !important;
+} */
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* Navbar, Header ====================== */
+
+.navbar-brand img{
+    width: 195px;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+}
+
+.nav-link:hover{
+    background-color: snow;
+    color: #000!important;
+    /* padding: 10px 40px !important;  */
+    /* padding-top: 20px !important;
+    padding-bottom: 20px !important; */
+}
+
+a:hover{
+    color: #fe7f6e !important;
+}
+
+header{
+    color: #fff;
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+header h1{
+    letter-spacing: .8rem;;
+}
+
+.navbar-nav{
+    /* gap: 3rem ;
+    font-size: 1.3rem; */
+}
+
+/* Brand */
+
+#brand h2{
+    letter-spacing: 2px;
+}
+
+/* Audience (plain CSS styling) */
+
+#audience .center{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+@media (max-width:720px){
+    #audience .center{
+       width: 100%;
+    }
+    
+}
+
+#audience .center h2{
+    font-size: 2.7rem;
+    letter-spacing: 3px;
+}
+#audience .center p{
+    margin: 40px 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#audience .center a{
+    font-size: 1.4rem;
+}
+
+.scroll_up{
+    background-color: #2c7566;
+    margin: auto;
+}
+.scroll_up img{
+    display: block;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+
+/* Two Image */
+
+#two_img .left-side{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+}
+
+#two_img .right-side{
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-size: cover;
+}
+
+#two_img .left-side, #two_img .right-side{
+    background-position: center;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.text-secondary{
+    color: hsl(212, 27%, 19%)!important;
+}
+
+footer{
+    background-color: #90d4c5;
+}
+
+footer nav ul li a{
+    color: #2c7566 ;
+}
+
+.social img{
+    padding: 10px 20px;
+    border-radius: 12px;
+  }
+  .social img:hover{
+    background-color: #40b1ee;
+  }
+
+@media (max-width:720px) {
+    header{
+        height: 50vh;
+    }
+    .w-75{
+        width: 100% !important;
+    }
+}
+
+.attribution a{
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+
+
+
+

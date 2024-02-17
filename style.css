@@ -138,6 +138,11 @@ footer nav ul li a{
   .social img:hover{
     background-color: #40b1ee;
   }
+  .attribution a{
+    text-decoration: none;
+    font-size: 24px;
+}
+
 
 @media (max-width:720px) {
     header{
@@ -148,10 +153,7 @@ footer nav ul li a{
     }
 }
 
-.attribution a{
-    text-decoration: none;
-    font-size: 24px;
-}
+
 
 
 
